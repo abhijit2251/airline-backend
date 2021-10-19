@@ -3,7 +3,7 @@ var serviceAccount = require("./serviceAccountKey.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://airline-checkin-24383.firebaseio.com",
+  databaseURL: "https://airline-347df-default-rtdb.firebaseio.com"
 });
 
 var db = admin.database();
