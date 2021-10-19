@@ -13,7 +13,7 @@ app.use(express.json())
 app.use("/apis", route);
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("Hello Siri");
 });
 
 //app.listen(5000);
